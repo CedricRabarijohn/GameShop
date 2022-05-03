@@ -12,7 +12,7 @@ const Home = () => {
                 <div className='row'>
                     <div className="container">
                         <div className="intro">
-                            <h2 className="text-center" data-aos="fade">OUR PRODUCTS HERE</h2>
+                            <h2 className="text-center" data-aos="fade">OUR PRODUCTS ARE HERE</h2>
                         </div>
                         <GameList />
                     </div>
