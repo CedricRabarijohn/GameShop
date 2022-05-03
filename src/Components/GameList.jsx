@@ -8,7 +8,7 @@ const GameList = () => {
         display: 'grid',
         alignItems: 'center'
     }
-    const { datas: games, isPending, err } = useFetch('http://localhost:8000/games')
+    const { datas: games, isPending, err } = useFetch('https://cedricrabarijohn.github.io/test-json-server/db.json')
     return (
         <div className="row projects text-center">
             {isPending &&

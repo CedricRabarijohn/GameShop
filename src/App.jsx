@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
 
 import AOS from "aos";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import './App.css';
 import Home from './Components/Home';
 import NavbarComp from './Components/NavbarComp';

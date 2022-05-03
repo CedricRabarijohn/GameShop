@@ -13,9 +13,10 @@ const useFetch = (url) => {
                     return res.json()
                 }).then(data => {
                     setErr(null)
-                    setDatas(data)
+                    // setDatas(data)
+                    setDatas(data.games)
                     setIsPending(false)
-                    console.log(data)
+                    console.log(data.games)
                 })
                 .catch((err) => {
                     setDatas(null)
