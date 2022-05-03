@@ -18,7 +18,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='row'>
-                    <h2 className='text-center' data-aos="fade">OUR TEAM</h2>
+                    <h2 className='text-center' data-aos="fade">OUR TEAM !</h2>
                 </div>
             </section>
         </>
