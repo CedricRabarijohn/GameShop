@@ -14,16 +14,16 @@ const useFetch = (url) => {
                 }).then(data => {
                     setErr(null)
                     // setDatas(data)
-                    setDatas(data.games)
+                    setDatas(data.datas)
                     setIsPending(false)
-                    console.log(data.games)
+                    console.log(data)
                 })
                 .catch((err) => {
                     setDatas(null)
                     setErr(err.message)
                     setIsPending(false)
                 })
-        }, 1000)
+        }, 500)
     }, [url])
     return { datas, isPending, err }
 }

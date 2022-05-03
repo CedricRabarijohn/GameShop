@@ -1,10 +1,13 @@
-import './css/Home.css'
-import './css/Search.css'
+
+import { Link } from 'react-router-dom';
 
 import "aos/dist/aos.css";
-import GameList from './GameList';
-import image from './images/bg.jpg'
 
+import GameList from './GameList';
+import TeamList from './TeamList';
+import './css/Home.css'
+import './css/Search.css'
+import './css/Team-clean.css'
 const Home = () => {
     return (
         <>
@@ -12,15 +15,12 @@ const Home = () => {
                 <div className='row'>
                     <div className="container">
                         <div className="intro">
-                            <h2 className="text-center" data-aos="fade">OUR PRODUCTS ARE HERE</h2>
+                            <h2 className="text-center" data-aos="fade">OUR PRODUCTS</h2>
                         </div>
                         <GameList />
                     </div>
                 </div>
-                <div className='row'>
-                    <h2 className='text-center' data-aos="fade">OUR TEAM</h2>
-                </div>
-                Our team is composed by : 
+                <TeamList />
             </section>
         </>
     );

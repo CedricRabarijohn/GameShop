@@ -6,7 +6,7 @@ const Game = ({ game }) => {
     }
     return (
         <>
-            <div data-aos="fade-down" class="card bg-light mb-3" style={{ maxWidth: '18rem' }}>
+            <div data-aos="fade-down" className="card bg-light mb-3" style={{ maxWidth: '18rem' }}>
                 <div className="card-header">{game.id}</div>
                 <div className="card-body">
                     <h5 className="card-title">{game.title}</h5>
