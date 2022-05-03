@@ -1,0 +1,19 @@
+{
+  "demandes": [
+    {
+      "id": 1,
+      "type": "demande",
+      "description": "blabla"
+    },
+    {
+      "id": 2,
+      "type": "urgence",
+      "description": "blabla"
+    },
+    {
+      "id": 3,
+      "type": "demande",
+      "description": "blabla"
+    }
+  ]
+}
