@@ -20,7 +20,7 @@ const GameList = () => {
                 </div>
             }
             {games && games.map((game) => (
-                <div className='game col-md-3 col-sm-4' key={game.id}>
+                <div className='game col-md-3 col-sm-3 col-6' key={game.id}>
                     <Game game={game} />
                 </div>
             ))}

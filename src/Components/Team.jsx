@@ -8,7 +8,7 @@ const Team = ({ person }) => {
             <h3 className="name">{person.firstName} {person.lastName}</h3>
             <p className="title">{person.role}</p>
             <p className="description">{person.slogan}</p>
-            <div className="social"><Link to="#"><i className="fa fa-facebook-official"></i></Link><Link to="#"><i className="fa fa-twitter"></i></Link><Link to="#"><i className="fa fa-instagram"></i></Link></div>
+            <div className="social"><Link to="#"><i className="bi bi-facebook"></i></Link></div>
         </div>
     );
 }
