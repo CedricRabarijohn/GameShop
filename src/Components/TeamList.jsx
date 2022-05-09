@@ -8,7 +8,7 @@ const TeamList = () => {
                 <div className="container">
                     <div className="intro">
                         <h2 className="text-center">Our team | CommunIT </h2>
-                        <p className="text-center">CommunIT is a community build up by students, especially from ITUniversity, in Madagascar</p>
+                        <p className="text-center">CommunIT is a community build up by students, especially from ITUniversity, from Madagascar</p>
                     </div>
                     <div className="row people">
                         {teamPending &&
