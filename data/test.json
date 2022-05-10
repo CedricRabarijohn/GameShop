@@ -1,19 +1,23 @@
 {
-  "demandes": [
-    {
-      "id": 1,
-      "type": "demande",
-      "description": "blabla"
-    },
-    {
-      "id": 2,
-      "type": "urgence",
-      "description": "blabla"
-    },
-    {
-      "id": 3,
-      "type": "demande",
-      "description": "blabla"
-    }
-  ]
+  "id": "37c9a895-5288-4f4f-904e-b4a07696a798",
+  "createdAt": "2022-05-09T07:27:08.950+0000",
+  "updatedAt": null,
+  "patient": {
+    "id": "c4022c42-4962-49d4-872d-20dc620b9503",
+    "createdAt": "2022-05-09T05:06:46.881+0000",
+    "updatedAt": null,
+    "username": "admin",
+    "firstName": "PRONNIER",
+    "lastName": "Antoine",
+    "email": "antoine.pronnier@epitech.eu",
+    "password": null,
+    "passwordConfirmation": null,
+    "role": "ADMIN",
+    "infos": "Ce patient comporte des troubles psyco moteurs."
+  },
+  "staff": null,
+  "type": "INSOMNIA",
+  "importance": "URGENT",
+  "status": "PENDING",
+  "infos": ""
 }

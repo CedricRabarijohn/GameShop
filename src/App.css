@@ -1,8 +1,8 @@
-.App {
-  text-align: center;
-}
 .main{
   padding: 20px;
+  font-family: 'Comic Neue', cursive;
+  background: url('bg.jpg');
+  background-size: cover;
 }
 .App-logo {
   height: 40vmin;

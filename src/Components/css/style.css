@@ -1,0 +1,79 @@
+*{
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+}
+.container{
+    padding: 5vh;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .10fr 0.8fr;
+    grid-template-areas: 
+    "nav nav"
+    "main1 main2"
+}
+nav{
+    grid-area: nav;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    background-color: inherit;
+    grid-area: logo;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu{
+    background-color: inherit;
+    grid-area: menu;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.join{
+    background-color: inherit;
+    grid-area: join;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main1{
+    background-color: inherit;
+    grid-area: main1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+    .nfts{
+        color: #F6547B;
+    }
+    .discover{
+        font-size: 6vh;
+        font-weight: 900;
+    }
+    .buy p{
+        margin:0px 10px 0px 10px;
+    }
+    .buy .fa{
+        border: 1px solid #F6547B;
+        padding: 14px;
+        border-radius: 1em;
+    }
+    .buy .fa:hover{
+        background-color: #F6547B;
+    }
+.main2{
+    grid-area: main2;
+    width: 100%;
+    height: auto;
+}
+.main2 img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}

@@ -1,7 +1,6 @@
-import { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
+import { useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import LogRocket from 'logrocket';
 import AOS from "aos";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,7 +14,6 @@ import Signup from './Components/Signup';
 
 function App() {
   useEffect(() => {
-    LogRocket.init('o7vgri/communitgameshop');
     AOS.init();
     AOS.refresh();
 }, []);
@@ -28,10 +26,6 @@ function App() {
           {/* Routes */}
           <Routes>
             <Route path="/" element={<Home />}></Route>
-            <Route path="/home" element={<Home />}></Route>
-            <Route path="/about" element={<About />}></Route>
-            <Route path="/Login" element={<Login />}></Route>
-            <Route path="/Signup" element={<Signup />}></Route>
           </Routes>
           {/* Footer */}
           <Footer />
